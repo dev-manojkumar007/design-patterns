@@ -1,0 +1,12 @@
+
+********* STRATEGY DESIGN PATTERN ***********
+
+** There is no way of re-using similar code by two different child classes in Inheritance. Features and behaviour only shared in fashion
+   parent -> child -> grand child -> ...so on.
+
+** When two different child use same code, it creates the problem of code duplicacy and hampers the scalability of system.
+
+** This pattern makes the use of Strategies ( Interfaces and its implementation ) that can be used as constructor injection by different child and re-use
+   the similar code.
+
+** This improves code re-usability and hence promotes scalability in system.
